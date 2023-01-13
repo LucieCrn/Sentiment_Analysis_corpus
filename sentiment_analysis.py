@@ -8,6 +8,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import wordcloud
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
