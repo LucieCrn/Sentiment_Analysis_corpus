@@ -2,7 +2,7 @@ import pip
 pip.main(["install","plotly"])
 pip.main(["install","matplotlib"])
 pip.main(["install","nltk"])
-pip.main(["install","wordcloud"])
+pip.main(["install","word_cloud"])
 
 import streamlit as st
 import numpy as np
