@@ -2,13 +2,13 @@ import pip
 pip.main(["install","plotly"])
 pip.main(["install","matplotlib"])
 pip.main(["install","nltk"])
-pip.main(["install","word_cloud"])
+pip.main(["install","pillow"])
+pip.main(["install","wordcloud"])
 
 import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import wordcloud
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
