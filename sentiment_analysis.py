@@ -1,3 +1,8 @@
+import pip
+pip.main(["install","plotly"])
+pip.main(["install","matplotlib"])
+pip.main(["install","nltk"])
+
 import streamlit as st
 import numpy as np
 import pandas as pd
